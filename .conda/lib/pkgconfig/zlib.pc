@@ -1,0 +1,13 @@
+prefix=/Users/kantaro/development/python-100-knocks/.conda
+exec_prefix=/Users/kantaro/development/python-100-knocks/.conda
+libdir=/Users/kantaro/development/python-100-knocks/.conda/lib
+sharedlibdir=/Users/kantaro/development/python-100-knocks/.conda/lib
+includedir=/Users/kantaro/development/python-100-knocks/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
